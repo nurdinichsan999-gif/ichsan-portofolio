@@ -1,0 +1,2 @@
+Taruh screenshot proyek di folder ini (WebP/PNG/JPG, lebar sekitar 1600 px).
+Contoh path di panel admin: assets/projects/sannur-tools/01.webp | Dashboard

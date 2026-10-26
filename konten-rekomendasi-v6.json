@@ -1,0 +1,220 @@
+{
+  "profile": {
+    "name": "Muhammad Ichsan Nurdin",
+    "shortName": "Ichsan Nurdin",
+    "headline": "Operations analyst. Problem solver. Web enthusiast.",
+    "bio": "Saya menghubungkan pengalaman operasional e-commerce dengan otomasi dan pengembangan web untuk membuat pekerjaan lebih terstruktur, efisien, dan mudah dijalankan.",
+    "about": "Saya lulusan Teknik Elektro Universitas Muhammadiyah Surakarta (2023). Dari bidang itu saya membawa kebiasaan mencari akar masalah dan memeriksa detail sebelum menyimpulkan.\n\nPengalaman operasional e-commerce saya dimulai pada 2023: lebih dulu sebagai QC Content Agent untuk Shopee Video dan Shopee Live, lalu sebagai Senior Analyst yang memimpin tim Seller KYC. Pekerjaan saya berpusat pada SLA, produktivitas, kualitas, penjadwalan roster, dan laporan harian sampai bulanan untuk manajemen.\n\nSaya juga belajar web development dengan membangun proyek sendiri: katalog, aplikasi keuangan, dan platform cerita. Melalui proyek pribadi, saya berlatih menerjemahkan kebutuhan menjadi antarmuka yang jelas dan alur yang dapat digunakan. Saya terbuka untuk peran operasional, otomasi, dan web development tingkat junior, dengan kemauan belajar dan kebiasaan kerja yang terstruktur.",
+    "degree": "Sarjana Teknik Elektro",
+    "university": "Universitas Muhammadiyah Surakarta",
+    "educationPeriod": "2018 – 2023",
+    "currentRole": "",
+    "currentCompany": "",
+    "focusTitle": "",
+    "focusDescription": "",
+    "greeting": "Halo, saya Ichsan",
+    "heroWord": "PORTFOLIO",
+    "stats": "3+ | Tahun operasional e-commerce\n4 | Proyek web mandiri\n5+ | Tahun desain grafis freelance",
+    "status": "Terbuka untuk peluang baru",
+    "statusDetail": "Terbuka untuk peran operasional, otomasi, dan pengembangan web tingkat junior.",
+    "location": "Karanganyar, Jawa Tengah",
+    "languages": "English — Intermediate\nIndonesia — Fluent",
+    "photoUrl": "",
+    "photoAlt": "Foto Muhammad Ichsan Nurdin mengenakan kemeja flanel merah dan kaos hitam"
+  },
+  "contact": {
+    "email": "nurdinichsan999@gmail.com",
+    "whatsapp": "6282324048036",
+    "linkedin": "https://www.linkedin.com/in/muhammad-ichsan-nurdin-1aa048220/",
+    "cvUrl": "assets/cv/Muhammad-Ichsan-Nurdin-CV.pdf",
+    "portfolioUrl": "#proyek"
+  },
+  "experience": [
+    {
+      "role": "Senior Analyst, Operations",
+      "company": "PT Shopee International Indonesia",
+      "detail": "Seller KYC Team Lead",
+      "start": "2025-04",
+      "end": "2026-10",
+      "bullets": [
+        "Memimpin kinerja tim agar konsisten memenuhi SLA, metrik produktivitas, dan standar kualitas.",
+        "Menyusun dan mempresentasikan laporan analitis harian, mingguan, dan bulanan untuk mendukung keputusan manajemen.",
+        "Mengoptimalkan roster dan alokasi sumber daya harian agar kapasitas operasional tetap optimal.",
+        "Menangani eskalasi pelanggan dan internal, menyelesaikan keluhan yang kompleks secara cepat dan sistematis.",
+        "Berkolaborasi lintas fungsi untuk merampingkan proses dan menjaga kepatuhan pada standar perusahaan.",
+        "Mengotomatiskan alur kerja harian dengan skrip dan ekstensi berbantuan AI (Google Apps Script) untuk meningkatkan efisiensi."
+      ]
+    },
+    {
+      "role": "QC Content Agent",
+      "company": "PT Vads Indonesia",
+      "detail": "Shopee Video & Shopee Live",
+      "start": "2023-03",
+      "end": "2025-04",
+      "bullets": [
+        "Memoderasi dan mengevaluasi video serta konten livestreaming e-commerce di platform Shopee.",
+        "Memastikan konten mematuhi pedoman komunitas, kebijakan, dan standar kualitas platform.",
+        "Mengidentifikasi dan mengeskalasi konten yang melanggar kebijakan secara tepat waktu."
+      ]
+    },
+    {
+      "role": "2D Graphic Design Editor",
+      "company": "Freelance",
+      "detail": "",
+      "start": "2017-09",
+      "end": "2023-01",
+      "bullets": [
+        "Merancang aset grafis sesuai kebutuhan klien: logo, poster, dan materi pemasaran.",
+        "Bekerja langsung dengan klien untuk mengubah brief kreatif menjadi solusi visual."
+      ]
+    },
+    {
+      "role": "Electrical Technician Intern",
+      "company": "PT Dua Kelinci",
+      "detail": "",
+      "start": "2021-10",
+      "end": "2021-11",
+      "bullets": [
+        "Melakukan inspeksi, perawatan, dan pemecahan masalah pada sistem kelistrikan dan mesin pabrik.",
+        "Menjaga sistem tetap berfungsi optimal sesuai standar keselamatan kerja (K3/HSE).",
+        "Membaca diagram kelistrikan PLC untuk instalasi dan perbaikan yang presisi.",
+        "Mendokumentasikan kegiatan teknis dalam laporan operasional dan perawatan harian."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "sannur-tools",
+      "goal": "Menyatukan pengelolaan katalog dan penyajian produk dalam alur yang lebih teratur.",
+      "approach": "Menyusun alur pengelolaan produk dan kategori melalui workspace admin, lalu menyajikan koleksinya pada halaman publik.",
+      "features": [
+        "Pengelolaan produk dan kategori",
+        "Ringkasan analytics",
+        "Persiapan sinkronisasi Google Sheets",
+        "Showcase produk publik"
+      ],
+      "learning": "Melatih pemisahan kebutuhan pengelola dan pengunjung, serta penyusunan alur data katalog.",
+      "title": "Sannur Tools",
+      "role": "Proyek mandiri",
+      "description": "Workspace untuk mengelola produk dan kategori, melihat analytics, menyiapkan sinkronisasi Google Sheets, dan menampilkan koleksi produk di halaman showcase publik.",
+      "url": "https://sannurtools.sannur-corp.com/",
+      "category": "Web Development",
+      "tags": [
+        "Aplikasi web",
+        "Dashboard admin",
+        "Google Sheets"
+      ],
+      "images": []
+    },
+    {
+      "id": "sayur-topaz",
+      "goal": "Membuat informasi sayur dan hasil bumi mudah ditelusuri melalui katalog digital.",
+      "approach": "Mengutamakan hierarki informasi produk, pencarian, dan tampilan yang tetap nyaman di berbagai ukuran layar.",
+      "features": [
+        "Katalog sayur dan hasil bumi",
+        "Pencarian produk",
+        "Tampilan responsif",
+        "Sesi admin pengelolaan katalog"
+      ],
+      "learning": "Mempelajari penyajian informasi produk dan pengalaman menjelajah katalog yang sederhana.",
+      "title": "Sayur Topaz",
+      "role": "Proyek mandiri",
+      "description": "Etalase katalog sayur dan hasil bumi dengan tampilan yang rapi dan pencarian produk yang mudah, dilengkapi sesi admin untuk pengelolaan.",
+      "url": "https://sayur-topaz.vercel.app/",
+      "category": "Web Development",
+      "tags": [
+        "E-katalog",
+        "Storefront",
+        "Responsif"
+      ],
+      "images": []
+    },
+    {
+      "id": "story-of-sannur",
+      "goal": "Menyajikan cerita dan bab dalam pengalaman baca yang terstruktur.",
+      "approach": "Memisahkan alur pembaca dari alur penerbitan agar cerita mudah ditemukan dan dikelola.",
+      "features": [
+        "Pustaka cerita",
+        "Halaman pembacaan bab",
+        "Informasi cerita",
+        "Panel admin penerbitan"
+      ],
+      "learning": "Melatih penataan konten, navigasi antarhalaman, dan keterbacaan pada layar kecil.",
+      "title": "Story of Sannur",
+      "role": "Proyek mandiri",
+      "description": "Platform baca web novel: pustaka cerita, halaman bab, halaman informasi, dan panel admin untuk menerbitkan cerita.",
+      "url": "https://sannurstory.sannur-corp.com/",
+      "category": "Web Development",
+      "tags": [
+        "Platform baca",
+        "Panel admin",
+        "Responsif"
+      ],
+      "images": []
+    },
+    {
+      "id": "dompet-sannur",
+      "goal": "Membantu pencatatan keuangan pribadi melalui informasi yang lebih tertata.",
+      "approach": "Mengelompokkan transaksi, dompet, anggaran, dan target tabungan dalam satu aplikasi pribadi.",
+      "features": [
+        "Pencatatan transaksi",
+        "Pengelolaan dompet",
+        "Penyusunan anggaran",
+        "Target tabungan"
+      ],
+      "learning": "Mempelajari struktur data transaksi dan perancangan alur input yang mudah dipahami.",
+      "title": "DompetSannur",
+      "role": "Proyek mandiri",
+      "description": "Aplikasi catatan keuangan pribadi untuk mencatat transaksi, mengelola dompet, menyusun anggaran, dan mengejar target tabungan.",
+      "url": "https://sannurfinnance.sannur-corp.com/",
+      "category": "Web Development",
+      "tags": [
+        "Aplikasi web",
+        "Keuangan pribadi",
+        "Anggaran"
+      ],
+      "images": []
+    }
+  ],
+  "skills": [
+    {
+      "title": "Operasional dan kepemimpinan",
+      "description": "Menjaga kinerja tim, kualitas, dan keputusan berbasis data.",
+      "tags": [
+        "SLA Management",
+        "Quality Control",
+        "Data Analysis",
+        "Pelaporan harian, mingguan, bulanan",
+        "Roster dan alokasi sumber daya",
+        "Penanganan eskalasi",
+        "Team Leadership & Communication",
+        "Time Management",
+        "Adaptability"
+      ]
+    },
+    {
+      "title": "Web, otomasi, dan AI",
+      "description": "Membangun antarmuka dan alur kerja yang mengurangi pekerjaan berulang.",
+      "tags": [
+        "HTML, CSS, JavaScript",
+        "Motion (animasi web)",
+        "Firebase (Firestore dan Authentication)",
+        "Google Sheets & Apps Script",
+        "AI-Assisted Scripting & Workflow Automation"
+      ]
+    },
+    {
+      "title": "Teknik dan desain",
+      "description": "Latar Teknik Elektro dan pengalaman visual.",
+      "tags": [
+        "PLC Programming",
+        "Arduino IDE",
+        "Diagram kelistrikan PLC",
+        "K3/HSE",
+        "CorelDRAW",
+        "Photography",
+        "Microsoft Office"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://porto-ichsan.sannur-corp.com/sitemap.xml

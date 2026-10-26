@@ -1,0 +1,33 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function owner() {
+      return request.auth != null && request.auth.uid == 'ndL0BJnPD4cQGma9IWTGIb7tPpo1';
+    }
+    function validDocument() {
+      let d = request.resource.data;
+      return d.keys().hasAll(['schemaVersion','content','revision','updatedAt','updatedBy'])
+        && d.keys().hasOnly(['schemaVersion','content','revision','updatedAt','updatedBy'])
+        && d.schemaVersion == 1
+        && d.revision is int && d.revision >= 1
+        && d.updatedAt == request.time && d.updatedBy == request.auth.uid
+        && d.content is map
+        && d.content.keys().hasAll(['profile','contact','experience','projects','skills'])
+        && d.content.keys().hasOnly(['profile','contact','experience','projects','skills'])
+        && d.content.profile is map && d.content.contact is map
+        && d.content.experience is list && d.content.experience.size() <= 30
+        && d.content.projects is list && d.content.projects.size() <= 50
+        && d.content.skills is list && d.content.skills.size() == 3;
+    }
+    match /portfolio/main {
+      // ONLY this document contains public portfolio content; never store secrets here.
+      allow get: if true;
+      allow list: if false;
+      allow create: if owner() && validDocument() && request.resource.data.revision == 1;
+      allow update: if owner() && validDocument()
+        && request.resource.data.revision == resource.data.revision + 1;
+      allow delete: if false;
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}
